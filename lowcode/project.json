@@ -1,0 +1,100 @@
+{
+    "version": "1.0.0",
+    "componentsMap": [
+        {
+            "package": "single-com",
+            "version": "0.1.0",
+            "exportName": "default",
+            "main": "src/index.tsx",
+            "destructuring": false,
+            "subName": "",
+            "componentName": "SingleCom"
+        },
+        {
+            "devMode": "lowcode",
+            "componentName": "Page"
+        }
+    ],
+    "componentsTree": [
+        {
+            "componentName": "Page",
+            "id": "node_dockcviv8fo1",
+            "docId": "docl4ktn36c",
+            "props": {
+                "ref": "outterView",
+                "style": {
+                    "height": "100%"
+                }
+            },
+            "fileName": "lowcode",
+            "dataSource": {
+                "list": []
+            },
+            "state": {
+                "text": "outter",
+                "isShowDialog": false
+            },
+            "css": "body {font-size: 12px;} .botton{width:100px;color:#ff00ff}",
+            "lifeCycles": {
+                "componentDidMount": {
+                    "type": "JSFunction",
+                    "value": "function() {\n    console.log('did mount');\n  }"
+                },
+                "componentWillUnmount": {
+                    "type": "JSFunction",
+                    "value": "function() {\n    console.log('will umount');\n  }"
+                }
+            },
+            "methods": {
+                "testFunc": {
+                    "type": "JSFunction",
+                    "value": "function() {\n    console.log('test func');\n  }"
+                },
+                "onClick": {
+                    "type": "JSFunction",
+                    "value": "function() {\n    this.setState({\n      isShowDialog: true\n    })\n  }"
+                },
+                "closeDialog": {
+                    "type": "JSFunction",
+                    "value": "function() {\n    this.setState({\n      isShowDialog: false\n    })\n  }"
+                }
+            },
+            "hidden": false,
+            "title": "",
+            "isLocked": false,
+            "condition": true,
+            "conditionGroup": "",
+            "children": [
+                {
+                    "componentName": "SingleCom",
+                    "id": "node_ocl4ktn36c1",
+                    "docId": "docl4ktn36c",
+                    "props": {
+                        "title": "整挺好",
+                        "content": ""
+                    },
+                    "hidden": false,
+                    "title": "",
+                    "isLocked": false,
+                    "condition": true,
+                    "conditionGroup": ""
+                },
+                {
+                    "componentName": "SingleCom",
+                    "id": "node_ocl4kwasvn1",
+                    "docId": "docl4kwasvn",
+                    "props": {
+                        "title": "",
+                        "content": ""
+                    },
+                    "hidden": false,
+                    "title": "",
+                    "isLocked": false,
+                    "condition": true,
+                    "conditionGroup": ""
+                }
+            ]
+        }
+    ],
+    "i18n": {}
+}
