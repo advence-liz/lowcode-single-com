@@ -1,4 +1,4 @@
-import SingleComMeta from '/Users/lizhuo13/lowcode/lowcode-single-com/lowcode/single-com/meta'
+import SingleComMeta from '/Users/lizhuo/fe/lowcode/single-com/lowcode/single-com/meta'
 
 const componentCategorySort = {};
 ["基础元素","布局容器类","表格类","表单详情类","帮助类","对话框类","业务类","通用","引导","信息输入","信息展示","信息反馈"]

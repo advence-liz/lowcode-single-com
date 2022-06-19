@@ -106,3 +106,4 @@ typings/
 # codealike
 codealike.json
 .node
+.tmp
