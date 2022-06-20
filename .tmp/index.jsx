@@ -6,7 +6,7 @@ const queryObject = new URLSearchParams(window.location.search);
 const fullbackMeta = 'default' || '';
 let platform = queryObject.get('platform') || '';
 let metaType = queryObject.get('metaType') || platform || '';
-const metaPathMap = {"meta":"/Users/lizhuo/fe/lowcode/single-com/.tmp/meta.js"};
+const metaPathMap = {"meta":"/Users/lizhuo13/lowcode/lowcode-single-com/.tmp/meta.js"};
 const key = metaType ? `meta.${metaType}` : 'meta';
 if (!metaPathMap[key]) {
   console.warn(`[@alifd/build-plugin-lowcode] metaType can only in [${Object.keys(metaPathMap)}], current metaType is ${key}, fullback to ${fullbackMeta || 'default'}.`);

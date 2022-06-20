@@ -1,11 +1,11 @@
 
 
 
-import * as componentInstances from '/Users/lizhuo/fe/lowcode/single-com/src/index.tsx';
+import * as componentInstances from '/Users/lizhuo13/lowcode/lowcode-single-com/src/index.tsx';
 
-import '/Users/lizhuo/fe/lowcode/single-com/src/index.scss'
+import '/Users/lizhuo13/lowcode/lowcode-single-com/src/index.scss'
 
-export * from '/Users/lizhuo/fe/lowcode/single-com/src/index.tsx';
+export * from '/Users/lizhuo13/lowcode/lowcode-single-com/src/index.tsx';
 
 const coveredComponents = {};
 
